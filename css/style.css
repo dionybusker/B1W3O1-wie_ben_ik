@@ -1,0 +1,192 @@
+/* styling */
+
+html {
+	height: 100%;
+}
+
+body {
+	background-color: #E8E8E8;
+	position: relative;
+	padding-bottom: 10px;
+	margin: 0;
+	/* min-height: 100%; */
+    margin-bottom: 10px;
+    font-family: Calibri;
+}
+
+main {
+    width: 960px;
+    /* height: 100%; */
+    margin: 0 auto; /* (top bottom) (right left) */
+    background-color: white;
+    /* border: 1px solid black; */
+}
+
+section {
+    padding: 10px 25px; /* (top bottom) (right left) */
+    border-left: 1px dotted #ABABAB;
+    border-right: 1px dotted #ABABAB;
+    /* border-bottom: 1px dashed #ABABAB; */
+    overflow: auto;
+}
+
+section p {
+    width: 650px;
+    text-align: justify;
+}
+
+/* section ul {
+    list-style-type: square;
+    text-decoration: none;
+} */
+
+.logo {
+    margin-bottom: -5px;
+}
+
+.personalpicture {
+    float: right;
+    height: 248px;
+    width: 186px;
+    border: 1.5px solid black;
+    margin: 15px 0 15px 15px;
+}
+
+.made-with, .img-programmeertaal {
+    text-align: center;
+}
+
+.made-with {
+    font-size: 16px;
+    margin: 10px;
+}
+
+.img-programmeertaal {
+    width: 40px;
+    height: 55px;
+    margin-top: 10px;
+}
+
+footer {
+    font-size: 12px;
+    padding: 10px 0;
+    background-color: #F1F1F1;
+    border-top: 1px dashed #ABABAB;
+    border-left: 1px dotted #ABABAB;
+    border-right: 1px dotted #ABABAB;
+    border-bottom: 1px dotted #ABABAB;
+    text-align: center;
+}
+
+/* contact page */
+.wrapper img {
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper {
+    justify-content: center;
+    margin-left: 10px;
+    /* text-decoration: none; */
+}
+
+.wrapper .socialmedia{
+    padding: 1px;
+    text-shadow: 0 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+    text-decoration: none;
+}
+
+.wrapper .socialmedia:hover {
+    margin-top: -3px;
+    text-shadow: 0 14px 10px rgba(0, 0, 0, 0.4);
+    background-color: #FFF;
+    opacity: 0.5;
+}
+/* /contact page */
+
+/* about.html CV button */
+.button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    /* float: right; */
+    display: inline-block;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 190px;
+}
+
+.button:hover {
+    background-color: #111;
+}
+
+/* hbo_verpleegkunde.html */
+
+.firstline {
+    margin-left: 20px;
+}
+
+.secondline {
+    margin-left: 40px;
+}
+
+.documenten {
+    float: right;
+    clear: both;
+}
+/* /hbo_verpleegkunde.html */
+
+/* portfolio.html */
+.container-project {
+    position: relative;
+    width: 95px;
+    height: 110px;
+    display: inline-block;
+}
+
+.container-project img {
+    max-width: 300px;
+    height: 189px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column p {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* /portfolio.html */
+
+/* top button */
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99; /* zorg ervoor dat het niet overlapt */
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background-color: #111;
+}
+/* /top button */
